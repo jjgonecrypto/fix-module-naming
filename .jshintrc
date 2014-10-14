@@ -1,0 +1,18 @@
+{
+  "eqeqeq": true,
+  "node": true,
+  "newcap": true,
+  "unused": true,
+  "trailing": true,
+  "boss": true,
+  "loopfunc": true,
+  "undef": true,
+  "predef": [
+    "describe",
+    "it",
+    "before",
+    "beforeEach",
+    "after",
+    "afterEach"
+  ]
+}
