@@ -11,3 +11,9 @@ Usage
 
 `npm install -g fix-module-naming`
 `fix-module-naming .` where `.` is either an absolute or relative path
+
+Options
+-------
+
+`- m, --mock` enables mock view, so you can see the output of changes without making them
+`- i, --ignore &lt;items&gt;` a comma-delimited list of patterns in folders to ignore
