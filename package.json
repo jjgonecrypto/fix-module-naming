@@ -2,17 +2,24 @@
   "name": "fix-module-naming",
   "version": "0.0.1",
   "description": "Utility to update all modules to camelCase (from underscore) and to capitalize constructor functions",
-  "main": "lib/index.js",
+  "main": "lib/fixer.js",
   "scripts": {
     "test": "mocha test"
   },
   "author": "justin j. moses",
   "license": "ISC",
   "bin": "lib/cli.js",
+  "repository": "https://github.com/justinjmoses/fix-module-naming",
   "dependencies": {
-    "colors": "^1.0.3",
+    "colors": "1.0.x",
     "esprima": "1.2.x",
-    "esquery": "^0.3.0",
+    "esquery": "0.3.x",
+    "fs-extra": "0.12.x",
     "underscore.string": "2.3.x"
+  },
+  "devDependencies": {
+    "chai": "1.9.x",
+    "detect-invalid-requires": "^0.1.1",
+    "mocha": "1.21.x"
   }
 }
