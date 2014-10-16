@@ -1,6 +1,6 @@
 {
   "name": "fix-module-naming",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Utility to update all modules to camelCase (from underscore) and to capitalize constructor functions",
   "main": "lib/fixer.js",
   "scripts": {
