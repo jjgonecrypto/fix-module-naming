@@ -8,7 +8,9 @@
   },
   "author": "justin j. moses",
   "license": "ISC",
-  "bin": "lib/cli.js",
+  "bin": {
+    "fix-invalid-requires": "bin/cli"
+  },
   "repository": "https://github.com/justinjmoses/fix-module-naming",
   "dependencies": {
     "async": "0.9.x",

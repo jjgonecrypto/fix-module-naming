@@ -2,7 +2,7 @@
 
 'use strict';
 
-var fixer = require('./fixer');
+var fixer = require('../lib/fixer');
 var program = require('commander');
 
 program
