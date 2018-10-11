@@ -18,7 +18,7 @@
     "commander": "2.3.x",
     "esprima": "1.2.x",
     "esquery": "0.3.x",
-    "underscore.string": "2.3.x"
+    "underscore.string": "3.3.5"
   },
   "devDependencies": {
     "chai": "1.9.x",
